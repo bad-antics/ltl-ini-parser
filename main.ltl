@@ -1,0 +1,15 @@
+// ltl-ini-parser/main.ltl
+//
+// INI-file parser with typed accessors and round-trip preservation.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-ini-parser v0.1.0")
+    io::println("INI-file parser with typed accessors and round-trip preservation.")
+    0
+}
